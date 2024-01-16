@@ -1,0 +1,97 @@
+.nav_container {
+    background-color: purple;
+    color: darkgoldenrod;
+    display: grid;
+    justify-content: center;
+}
+
+.navbar {
+    display: grid;
+    text-align: center;
+}
+
+.nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    background-color: blue;
+    color: darkgoldenrod;
+    text-align: center;
+    padding-bottom: 5px;
+    display: grid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    object-fit: contain;
+}
+
+.About {
+    color: darkgoldenrod;
+    background-color: blue;
+    display: grid;
+}
+
+.Services {
+    color: darkgoldenrod;
+    background-color: purple;
+}
+
+.wrap-container {
+    display: grid;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 500px 600px;
+    grid-gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact {
+    color: darkgoldenrod;
+    background-color: blue;
+    display: grid;
+    
+}
+
+h4 {
+    color: darkgoldenrod;
+}
+
+footer {
+    color: darkgoldenrod;
+    background-color: purple;
+    display: grid;
+}
+
+.background {
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    color: darkgoldenrod;
+    text-emphasis: bold;
+    height: 900px;
+}
+
+.backgroundcontainer {
+    background-color: purple;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
