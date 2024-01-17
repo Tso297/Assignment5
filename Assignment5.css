@@ -16,9 +16,8 @@
 }
 
 .images {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 600px;
+    height: 100px;
 }
 
 header {
@@ -44,20 +43,28 @@ ul {
 .Services {
     color: darkgoldenrod;
     background-color: purple;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 
 .wrap-container {
     display: grid;
     justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    margin-bottom: -300px;
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 600px 600px;
-    grid-template-rows: 500px 600px;
-    grid-gap: 200px;
+    grid-template-rows: 600px 600px 600px;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    padding-left: 250px;
+    margin-top: 0px;
 }
 
 .Contact {
@@ -86,6 +93,7 @@ footer {
     color: darkgoldenrod;
     text-emphasis: bold;
     height: 900px;
+    
 }
 
 .backgroundcontainer {
@@ -95,3 +103,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+#cardio {width: 600px;
+height: 600px;}
